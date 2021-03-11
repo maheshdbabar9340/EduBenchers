@@ -1,1 +1,1 @@
-# Edu-Benchers
+# EduBenchers
