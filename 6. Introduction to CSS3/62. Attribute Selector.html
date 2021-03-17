@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a[target] {
+        background-color: yellow;
+        }
+        a[target="_blank"] {
+        background-color: yellow;
+        }
+        [title~="Fort"] {
+        border: 5px solid yellow;
+        }
+        [class|="top"] {
+        background: yellow;
+        }
+        [class^="top"] {
+        background: yellow;
+        }
+        [class$="test"] {
+        background: yellow;
+        }
+        [class*="st"]{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+
+<h2>CSS [attribute="value"] Selector</h2>
+<p>The link with target="_blank" gets a yellow background:</p>
+
+<a href="http://www.disney.com" target="_blank">disney.com</a>
+<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+
+<h2>CSS [attribute~="value"] Selector</h2>
+<p>All images with the title attribute containing the word "Fort" get a yellow border.</p>
+
+<img src="agra-fort.jpg" title="agra Fort" width="150" height="113">
+<img src="Tajmahal.jpg" title="Tajmahal" width="224" height="162">
+<img src="red-fort.jpg" title="red Fort" width="200" height="358">
+
+
+<h2>CSS [attribute|="value"] Selector</h2>
+
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontent">Are you learning CSS?</p>
+
+<h2>CSS [attribute^="value"] Selector</h2>
+
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontent">Are you learning CSS?</p>
+
+<h2>CSS [attribute$="value"] Selector</h2>
+
+<h1 class="top-test">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontest">Are you learning CSS?</p>
+
+<h2>CSS [attribute*="value"] Selector</h2>
+<h1 class="first-test">Welcome</h1>
+<p class="toptext">Hello world!</p>
+<p class="second-test">Hello world!</p>
+<p class="top-content">Are you learning CSS?</p>
+
+</body>
+</html>
