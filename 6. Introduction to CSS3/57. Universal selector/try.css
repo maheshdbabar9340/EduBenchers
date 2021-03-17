@@ -1,0 +1,19 @@
+*{
+    background-color: coral;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    background-color: greenyellow;
+    color: rgb(190, 170, 170);
+}
+h2{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+p{
+    color: green;
+    padding: 20px;
+    font-size: 30px;
+}

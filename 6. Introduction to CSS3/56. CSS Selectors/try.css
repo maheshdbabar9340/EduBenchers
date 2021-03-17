@@ -1,0 +1,14 @@
+h1{
+    background-color: greenyellow;
+    color: rgb(190, 170, 170);
+    text-align: left;
+}
+h2{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+p{
+    color: green;
+    padding: 20px;
+    font-size: 30px;
+}
