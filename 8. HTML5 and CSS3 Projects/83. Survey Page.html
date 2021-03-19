@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 and CSS3 Projects - Survey Page</title>
+    <meta charset="utf-8">
+<style>
+  #main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+  }
+  #title{
+    text-align: center;
+    font-size: 42px;
+    color: #333333;
+  }
+  #survey-form, p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    background-color: #d4d4d4;
+    margin: auto;
+    width: 60%;
+    padding: 1%;
+
+  }
+  #name-label, #email-label, #number-label, #name, #email, #number, #drop-down, label, fieldset, #comments{
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    align: right ;
+  }
+  body{
+    padding-bottom: 400px;
+  }
+</style>
+</head>
+<body >
+<div id="main">
+<h1 id="title">Survey Form</h1>
+<p id="description">This is a survey form for EduBenchers.</p>
+
+<form id="survey-form">
+
+  <label id="name-label" for="name">*Name</label>
+ <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+  <br>
+ <label id="email-label" for="email">*Email</label>
+ <input type="email" name="email" id="email" placeholder="test@gmail.com" required>
+  <br>
+  <label id="number-label" for="number">*Roll No</label>
+ <input type="number" name="number" id="number" placeholder="Enter RollNo." min="0" max="100" required>
+  <br>
+  <!-- Dropdown starts here -->
+  <label for="drop-down">How do you rate our courses?</label>
+  <select name="drop-down" id="drop-down">
+    <option value="Excellent">Excellent
+    </option>
+    <option value="Good">Good
+    </option>
+    <option value="Fair">Fair
+    </option>
+    <option value="Poor">Poor
+    </option>
+  </select>
+  <br>
+  <!-- Fieldset begins here-->
+  <fieldset>
+    <legend>Which is your favorite course?</legend>
+       <input type="radio" name="course" id="science" value="Science">
+    <label for="science">Full Stack Development</label>
+    <br>
+   
+       <input type="radio" name="course" id="math" value="Math">
+     <label for="math">Machine Learning</label>
+    <br>
+    
+       <input type="radio" name="course" id="art" value="Art">
+    <label for="art">Artificial Intelligence</label>
+  </fieldset>
+    <!--Whaat do you like about EduBenchers -->
+      <!-- Fieldset begins here-->
+  <fieldset>
+    <legend>What do you like about EduBenchers ?</legend>
+       <input type="checkbox" name="school" id="classes" value="Classes">
+    <label for="classes">Classes</label>
+    <br>
+   
+       <input type="checkbox" name="school" id="teachers" value="teachers">
+     <label for="teachers">Teachers</label>
+    <br>
+    
+       <input type="checkbox" name="school" id="culture" value="Food">
+    <label for="culture">Culture</label>
+  </fieldset>
+   <!--Textarea begins-->
+  <textarea id="comments" rows="5" columns="500">
+    Help us improve. Enter your suggestions.
+  </textarea><br><br>
+   <!--submit button -->
+  <input type="submit" id="submit" value="Submit"> 
+
+
+
+  </form>
+</div>
+</body>
+</html>

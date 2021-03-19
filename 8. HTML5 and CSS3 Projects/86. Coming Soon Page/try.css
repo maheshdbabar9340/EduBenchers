@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+    padding: 0;
+    background: radial-gradient(#264e86,#afffff);
+    height: 100vh;
+   }
+  h3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6.5vw;
+
+  }
+h3:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: bottom;
+  transform: rotateX(180deg);
+  line-height: 1.14em;
+ background: linear-gradient(45deg, #000000 0, transparent 70%);
+    -webkit-background-clip: text;
+  -webkit-text-color: transparent;
+  opacity: 0.3;
+}
+header {
+  display: block;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 50px;
+  font-size: 2vw;
+  background: linear-gradient(deeppink,purple,yellow,purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
