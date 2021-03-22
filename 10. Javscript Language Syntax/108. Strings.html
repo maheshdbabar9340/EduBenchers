@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+<p>The length property returns the length of an array.</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Lemon");
+var text;
+text = "<ul>";
+fruits.forEach(myFunction);
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+document.getElementById("demo1").innerHTML = fruits[1];
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+} 
+</script>
+
+</body>
+</html>
