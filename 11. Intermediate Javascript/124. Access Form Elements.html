@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="myForm" action="/action_page.php">
+  First name: <input type="text" name="fname" value="Rohit "><br>
+  Last name: <input type="text" name="lname" value="Sharma"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Click the "Try it" button to display the number of elements in the form.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myForm").elements[2];
+  document.getElementById("demo").innerHTML =  x ;
+}
+</script>
+
+</body>
+</html>

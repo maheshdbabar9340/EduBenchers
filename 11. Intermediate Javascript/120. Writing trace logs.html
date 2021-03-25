@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript console.trace() Method</h1>
+
+<p>By clicking the button, a function will be executed, which will execute another function, 
+  which will execute the console.trace() method, which will display this trace in the 
+  console.view.</p>
+
+<button onclick="myFunction()">Start Trace</button>
+
+<script>
+console.log("Hello How are You? ");
+function myFunction() {
+  myOtherFunction();
+}
+
+function myOtherFunction() {
+  console.trace();
+}
+
+</script>
+
+</body>
+</html>
