@@ -1,0 +1,9 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 60%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
