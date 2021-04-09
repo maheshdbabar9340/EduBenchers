@@ -1,0 +1,17 @@
+<!-- Old Version -->
+
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+
+<!-- New Version -->
+<note>
+  <date>2015-09-01</date>
+  <hour>08:30</hour>
+  <to>Tove</to>
+  <from>Jani</from>
+  <body>Don't forget me this weekend!</body>
+</note>
