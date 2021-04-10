@@ -1,0 +1,13 @@
+{
+    "name":"John", 
+    
+    "age":30.45,  
+    
+    "employee":{ "name":"John", "age":30, "city":"New York" }, 
+
+    "employees":[ "John", "Anna", "Peter" ], 
+
+    "verify":false, 
+    
+    "middlename":null
+}
