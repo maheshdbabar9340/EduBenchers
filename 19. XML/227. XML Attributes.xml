@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person gender="female">
+  <firstname>Anna</firstname>
+  <lastname>Smith</lastname>
+</person>
+
+
+
+<person>
+  <gender>female</gender>
+  <firstname>Anna</firstname>
+  <lastname>Smith</lastname>
+</person>
+
+
+<note date="2008-01-10">
+  <to>Tove</to>
+  <from>Jani</from>
+</note>
+
+
+<note>
+  <date>2008-01-10</date>
+  <to>Tove</to>
+  <from>Jani</from>
+</note>
+
+
+<note>
+  <date>
+    <year>2008</year>
+    <month>01</month>
+    <day>10</day>
+  </date>
+  <to>Tove</to>
+  <from>Jani</from>
+</note>
+
+
+<note day="10" month="01" year="2008"
+to="Tove" from="Jani" heading="Reminder"
+body="Don't forget me this weekend!">
+</note>
+
+
+<messages>
+  <note id="501">
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+  </note>
+  <note id="502">
+    <to>Jani</to>
+    <from>Tove</from>
+    <heading>Re: Reminder</heading>
+    <body>I will not</body>
+  </note>
+</messages>
