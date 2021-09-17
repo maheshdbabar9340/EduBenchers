@@ -3,7 +3,6 @@
 <body>
 
 <?php
-
 $txt = "Hello EduBenchers!!";
 $x = 5;
 $y = 10;
