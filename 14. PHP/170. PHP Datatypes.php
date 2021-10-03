@@ -22,8 +22,6 @@ echo "<br>";
 echo "Resource";
 echo "<br>";
 
-
-
 $x = "Hello world!";
 $y = 'Hello world!';
 
