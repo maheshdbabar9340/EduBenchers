@@ -1,6 +1,6 @@
 # EduBenchers
 
-Internship Workout
+Internship-Workout
 
 Projects : 
  
